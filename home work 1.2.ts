@@ -89,3 +89,75 @@ console.log (absC, absD, absE, absF, absG, absH);
 
 
 //Задание №12
+const triA = 30;
+const triB = 23;
+const triC = triA*triB/2;
+const triD = Math.sqrt(345);
+const triE = triA+triB+triD;
+console.log(triC);//Площадь
+console.log(triD);//Гипотенуза
+console.log(triE);//Периметр
+
+
+//Задание №13
+const circleR1 = 4;
+const circleR2 = 7;
+const circleS1 = Math.pow(circleR1,2)*Math.PI;
+const circleS2 = Math.pow(circleR2,2)*Math.PI;
+const circleS3 = circleS2 - circleS1;
+console.log(circleS1);
+console.log(circleS2);
+console.log(circleS3);
+
+
+//Задание №14
+const segA = 3;
+const segB = 7;
+const segC = 15;
+const segAC = Math.abs(segC)-Math.abs(segA);
+const segBC = Math.abs(segC)-Math.abs(segB);
+const segSum = Math.abs(segAC)+Math.abs(segBC);
+console.log(segAC);
+console.log(segBC);
+console.log(segSum);
+
+
+//Задание №15
+const segment1 = 5;
+const segment2 = 8;
+const segment3 = 14;
+const segment13 = Math.abs(segment3)-Math.abs(segment1);
+const segment23 = Math.abs(segment3)-Math.abs(segment2);
+const segment1223 = Math.abs(segment13)*Math.abs(segment23);
+
+console.log(segment13);
+console.log(segment23);
+console.log(segment1223);
+
+
+//Задание №16
+const x1 = 12;
+const y1 = 10;
+const x2 = 2;
+const y2 = 3;
+const sideX1X2 = Math.abs(x1-x2);
+const sideY1Y2 = Math.abs(y1-y2);
+const rectP = Math.abs(sideX1X2+sideY1Y2)*2;
+const rectS = sideX1X2*sideY1Y2;
+console.log(sideX1X2);
+console.log(sideY1Y2);
+console.log(rectP);
+console.log(rectS);
+
+
+//Задание №17;
+const pointX1 = 16;
+const pointY1 = 14;
+const pointX2 = 4;
+const pointY2 = 2;
+const segmX1X2 = Math.abs(pointX1-pointX2);
+const segmY1Y2 = Math.abs(pointY2-pointY1);
+const segmD = Math.sqrt(pointX1-pointX2)+Math.sqrt(pointY1-pointY2);
+console.log(segmX1X2);
+console.log(segmY1Y2);
+console.log(segmD);
