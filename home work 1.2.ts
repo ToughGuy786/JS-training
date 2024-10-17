@@ -161,3 +161,62 @@ const segmD = Math.sqrt(pointX1-pointX2)+Math.sqrt(pointY1-pointY2);
 console.log(segmX1X2);
 console.log(segmY1Y2);
 console.log(segmD);
+
+
+//Задача №18
+let aNum = 5;
+let bNum = 7;
+
+aNum = aNum + bNum;
+bNum = aNum - bNum;
+aNum = aNum - bNum;
+console.log(aNum);
+console.log(bNum);
+console.log(aNum)
+console.log(aNum,bNum)
+
+
+//Задача №19
+let aNumb = 6;
+let bNumb = 8;
+let cNumb = 12;
+
+aNumb = aNumb + bNumb + cNumb;
+bNumb = aNumb - bNumb - cNumb;
+cNumb = aNumb - bNumb - cNumb;
+aNumb = aNumb - bNumb - cNumb;
+
+console.log(aNumb);
+console.log(bNumb);
+console.log(cNumb);
+console.log(aNumb,bNumb,cNumb);
+
+
+//Задача №20
+const x = 4**2;
+const yY =Math.abs(3*x-6*x-7);
+console.log(yY); 
+console.log(x)
+
+//Задание 21
+const xX = 8;
+const gG = (xX-3)**6;
+const fF = (xX-3)**3;
+const yI = Math.abs(4*gG-7*fF+2)
+console.log(yI);
+console.log(gG);
+
+
+
+//Задание 23
+const aA2 = aA**2;
+const A3 = aA**3;
+const A5 = aA**5;
+const A10 = aA**10;
+const A15 = aA**15;
+
+console.log(aA2);
+console.log(A3);
+console.log(A5);
+console.log(A10);
+console.log(A15);
